@@ -40,7 +40,7 @@ namespace DLL_module
 
             return sentences.Length;
         }
-        public static string ReverseOfSentences(string str)
+        public static String ReverseOfSentences(String str)
         {
             string[] arr = str.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
@@ -50,7 +50,6 @@ namespace DLL_module
             }
             
             str = str.Remove(0, str.Length);
-            //str = String.Join (" ", arr);
 
             for (int i = arr.Length - 1; i >= 0; i--)
             {
